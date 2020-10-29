@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="DZ3.css">
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        nav {
+            width: 100%;
+            height: 70px;
+            background: #87bdd8;
+        }
+        
+        nav img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        nav ul {
+            float: right;
+            margin-right: 5px;
+            border-left-style: solid;
+            border-left-width: 0px;
+            padding-left: 0px;
+            padding-right: 500px;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            line-height: 50px;
+            margin: 6 5px;
+        }
+        
+        nav ul li a {
+            color: black;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 7px 13px;
+            border-radius: 3px;
+        }
+        
+        .active,
+        a:hover {
+            background: #f8f8ff;
+            transition: all 1s;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <nav>
+
+        ​​<img src="2.png" alt="logo">
+
+
+
+        <ul>
+            <li class="moto"> IT'S TIME TO STEP UP</li>
+            <li><a href="index.html">Pocetna strana</a></li>
+            <li><a href="zensko.html">Zensko</a>
+                <li><a href="Musko.html">Musko</a>
+                    <li><a href="informacije.html">Informacije</a></li>
+        </ul>
+
+    </nav>
+    <div class="centralniDeo">
+
+        <div class="prviDeo">
+            <legend>
+                Registracija
+            </legend>
+            <div class="registracija">
+                <form action="" method="post">
+
+                    Email:
+                    <input type="email" name="email" placeholder="Uneti email"> <br> Lozinka: <input type="password" name="lozinka" placeholder="Unesi lozinku"> <br> Ime: <input type="text" name="ime" placeholder="Unesi ime"> <br> Prezime: <input type="text"
+                        name="prezime" placeholder="Unesi prezime"> <br> Godine: <input type="number" name="godine" placeholder="Unesi godine"> <br>
+                    <label for="datumRodjenja">Datum rodjenja</label>
+                    <input type="date" name="datumRodjenja" placeholder="mm/dd/yyyy"> <br>
+
+                    <label for="zemlja">Zemlja stanovanja</label>
+
+                    <select name="zemlja">
+                   
+                        <option value="" ></option> 
+                 <option value="srbija">Srbija</option>
+                      <option value="hrvatska">Hrvatska</option> 
+                      <option value="francuska">Francuska</option>
+                      <option value="italija">Italija</option>
+                      <option value="nemacka">Nemacka</option>
+                      <option value="grcka">Grcka</option>
+                      <option value="madjarska">Madjarska</option>
+                     </select> <br>
+                    <label for="pol">pol</label>
+                    <input type="radio" name="pol" value="muski" checked> M
+                    <input type="radio" name="pol" value="zenski"> Z <br>
+
+                    <p> <input type="submit" value="Kreiraj"> </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <div class="drugiDeo">
+            <div class="proizvod">
+                <h1 class="text">Flex High Waisted Legginds</h1>
+
+                <img src="1.webp" alt="">
+                <h2 class="cena">50 &#8364;</h2>
+                <p><button>Dodaj u korpu</button></p>
+                <label for="number"></label>
+                <input type="number" name="number" placeholder="kolicina">
+            </div>
+            <div class="proizvod">
+                <h1 class="text">Energy+seamless Cropped Leggings</h1>
+                <img src="2.webp" alt="">
+                <h2 class="cena"> 50 &#8364;</h2>
+                <p><button>Dodaj u korpu</button></p>
+                <label for="number"></label>
+                <input type="number" name="number" placeholder="kolicina">
+            </div>
+            <div class="proizvod">
+                <h1 class="text"> Flex High Waisted Legginds</h1>
+                <img src="3.webp" alt="">
+                <h2 class="cena">50 &#8364</h2>
+                <p><button>Dodaj u korpu</button></p>
+                <label for="number"></label>
+                <input type="number" name="number" placeholder="kolicina">
+
+            </div>
+
+        </div>
+        </h1>
+
+
+    </div>
+
+
+
+
+
+    <div class="treciDeo">
+        <div class="vest">
+            <h1>The Gymshark Adapt Family</h1>
+            <hr>
+            <img src="vesti1.jpg" alt="">
+            <h2>Four new capsules. One growing family. Explore the Adapt Collection and its .</h2>
+        </div>
+        <div class="vest">
+            <h1>The Gymshark London Store</h1>
+            <hr>
+            <img src="vesti2.webp" alt="">
+            <h2> GymsharkLDN. This is different. This is bigger. This is a Gymshark retail store.</h2>
+        </div>
+        <div class="vest">
+            <h1>It's Time To Step Up</h1>
+            <hr>
+            <img src="vesti3.webp" alt="">
+            <h2>We will represent Black culture and communities better within our own.</h2>
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+
+    <div class="footer">
+
+        <p>Ime i prezime:Anja Ivanovic tel:+381649199629 email:aivanovic819s@raf.rs</p>
+    </div>
+    </div>
+
+</body>
+
+</html>
